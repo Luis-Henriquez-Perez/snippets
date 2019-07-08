@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: describe-expect
+# key: tdexpect
+# --
+(describe "${1:description}"
+  (expect ${2:expectation}))

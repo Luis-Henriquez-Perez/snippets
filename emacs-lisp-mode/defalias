@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: defalias
+# key: dalias
+# --
+(defalias '${1:new-name} '${2:old-name})$0

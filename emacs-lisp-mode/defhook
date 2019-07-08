@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: defhook!
+# key: dhook
+# --
+(defhook! ${1:name} (${2:args})
+  "${3:docstring}"
+  :${4:hook} ${5:hook-name}
+  $0)

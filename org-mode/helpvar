@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: helpvar
+# key: hvar
+# --
+[[helpvar:${1:var}][$1]]$0

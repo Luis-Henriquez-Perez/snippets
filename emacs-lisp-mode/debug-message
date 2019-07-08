@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: debug message
+# key: dmsg
+# --
+(message "%${1:variable}: %S" $1)$0

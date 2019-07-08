@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: helpfn
+# key: helpfn
+# --
+[[helpfn:${1:fname}][$1]]$0
