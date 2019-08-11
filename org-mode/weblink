@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: weblink
+# key: wlnk
+# --
+[[${1:link$(yas-choose-value (+org-links-in-kill-ring))}][${2:description}]${0:$$(insert "]")}
