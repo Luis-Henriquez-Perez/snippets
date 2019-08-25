@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: helpfn
-# key: helpfn
+# key: hfn
 # --
-[[helpfn:${1:fname}][$1]]$0
+[[helpfn:${1:function$(yas-auto-next (yas-choose-value (+org-link--get-functions)))}][$1]${0:$$(insert "]")}

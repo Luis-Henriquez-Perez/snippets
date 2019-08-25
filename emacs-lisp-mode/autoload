@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: autoload
+# key: aload
+# --
+(autoload ${1:function$(yas-choose-value (+org-link--get-callables))} "${2:filename}" nil ${4:interactive} ${5:type})

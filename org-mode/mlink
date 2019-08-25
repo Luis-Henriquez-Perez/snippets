@@ -2,4 +2,4 @@
 # name: mirror link
 # key: mlink
 # --
-[[$1:$2][$2]]$0
+[[info:${1:link}][${2:description}]]$0

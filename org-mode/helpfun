@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: helpfun
-# key: hfn
-# --
-[[helpfn:${1:function}][$1]${0:$$(insert "]")}

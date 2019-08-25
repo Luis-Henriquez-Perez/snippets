@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: package link
+# key: plink
+# --
+[[${1:$(+org-link--get-package-repo yas-text)}][${1:package$(yas-auto-next (yas-choose-value (straight-recipes-list straight-recipe-repositories)))}]${0:$$(insert "]")}

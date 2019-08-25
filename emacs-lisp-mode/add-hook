@@ -1,7 +1,5 @@
 # -*- mode: snippet; -*-
-# contributor: Xah Lee (XahLee.org)
 # name: add-hook
-# key: add-hook
-# key: ah
+# key: ahk
 # --
-(add-hook '${1:name}-hook ${2:'${3:function}})$0
+(add-hook '${1:hook$(yas-auto-next (yas-choose-value (+org-link--hooks)))} #'${2:function$(yas-auto-next (yas-choose-value (+org-link--get-functions)))})$0
