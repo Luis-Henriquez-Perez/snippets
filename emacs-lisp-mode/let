@@ -1,8 +1,6 @@
 # -*- mode: snippet -*-
-# contributor: Xah Lee (XahLee.org)
 # name: let
-# key: let
-# key: l
+# key: lt
 # --
-(let${1:*} (${2:args})
+(let ($1)
   $0)

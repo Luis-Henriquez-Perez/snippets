@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
 # name: defalias
-# key: dalias
+# key: dal
 # --
-(defalias '${1:new-name} '${2:old-name})$0
+(defalias '${2:new-name} '${1:old-name$(yas-choose-value (+org-link--get-variables))})$0

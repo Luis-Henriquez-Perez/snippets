@@ -3,6 +3,6 @@
 # key: def
 # --
 (defun ${1:fun} (${2:args})
-  "${3:docstring}"
+  "${3:$$(ignore-errors (+snippet--docstring (yas-field-value 2) yas-text))}"
   ${4:(interactive)}
   $0)

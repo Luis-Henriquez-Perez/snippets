@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: leaf
-# key: leaf
-# --
-(leaf ${1:package-name}
-  $0)
