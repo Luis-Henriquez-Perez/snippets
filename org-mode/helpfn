@@ -2,4 +2,4 @@
 # name: helpfn
 # key: hfn
 # --
-[[helpfn:${1:function$(yas-auto-next (yas-choose-value (+org-link--get-functions)))}][$1]${0:$$(insert "]")}
+[[helpfn:${1:function$(yas-auto-next (yas-choose-value (+snippet--get-functions)))}][$1]${0:$$(insert "]")}

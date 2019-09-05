@@ -2,4 +2,4 @@
 # name: add-hook
 # key: ahk
 # --
-(add-hook '${1:hook$(yas-auto-next (yas-choose-value (+org-link--hooks)))} #'${2:function$(yas-auto-next (yas-choose-value (+org-link--get-functions)))})$0
+(add-hook '${1:hook$(yas-auto-next (yas-choose-value (+snippet--hooks)))} #'${2:function$(yas-auto-next (yas-choose-value (+snippet--get-functions)))})$0

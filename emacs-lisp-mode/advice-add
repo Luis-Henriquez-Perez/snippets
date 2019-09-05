@@ -2,4 +2,4 @@
 # name: advice-add
 # key: aad
 # --
-(advice-add #'${1:function$(yas-auto-next (yas-choose-value (+org-link--get-functions)))} :${2:where$(yas-auto-next (yas-choose-value (mapcar (-compose #'intern #'void-keyword-name) void-advice-combinator-list)))} #'${3:advice$(yas-auto-next (yas-choose-value (+org-link--get-functions)))})$0
+(advice-add #'${1:function$(yas-auto-next (yas-choose-value (+snippet--get-functions)))} :${2:where$(yas-auto-next (yas-choose-value (mapcar (-compose #'intern #'void-keyword-name) void-advice-combinator-list)))} #'${3:advice$(yas-auto-next (yas-choose-value (+snippet--get-functions)))})$0

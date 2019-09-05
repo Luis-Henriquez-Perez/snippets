@@ -4,5 +4,5 @@
 # --
 (defhook! ${1:name} (${2:args})
   "${3:$$(ignore-errors (+snippet--docstring (yas-field-value 2) yas-text))}"
-  :${4:type$(yas-choose-value void-advice-combinator-list)} ${5:hook-name$(yas-choose-value (+org-link--hooks))}
+  :${4:type$(yas-choose-value void-advice-combinator-list)} ${5:hook-name$(yas-choose-value (+snippet--hooks))}
   $0)
