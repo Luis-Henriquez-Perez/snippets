@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: defadvice!
+# key: dav
+# --
+(defadvice! ${1:name} (${2:args})
+  "${3:$$(ignore-errors (+snippet--docstring (yas-field-value 2) yas-text))}"
+  ${4:type$(yas-auto-next (yas-choose-value void-advice-keywords))} #'${5:advice-name$(yas-choose-value (+snippet--functions))}
+  $0)
